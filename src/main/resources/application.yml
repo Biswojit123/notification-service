@@ -1,0 +1,17 @@
+
+server:
+  port: 8082
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: biswojitjena368@gmail.com
+    password: zlrs hvje hgif dblj  # Use App Password, NOT your Gmail password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
